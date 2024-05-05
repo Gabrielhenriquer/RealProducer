@@ -1,0 +1,151 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(10, 255, 2);
+}
+
+.center {
+    text-align: center;
+}
+h1 {
+    color:rgb(10, 255, 2)
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 2px;
+}
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: rgb(11, 211, 45);
+}
+
+/* Defina as propriedades de estilo para os temas light e dark */
+
+/* Estilo padrão (light) */
+body {
+    background-color: #f5f5f5; /* Cor de fundo light */
+    color: #333; /* Cor do texto light */
+  }
+  
+  /* Estilo para o tema dark */
+  body.dark {
+    background-color: #000000; /* Cor de fundo dark */
+    color: #f5f5f5; /* Cor do texto dark */
+  }
+
+  /* Defina as propriedades de estilo para os temas light e dark */
+
+/* Estilo padrão (light) */
+body {
+    background-color: #f5f5f5; /* Cor de fundo light */
+    color: #333; /* Cor do texto light */
+  }
+  
+  /* Estilo para o tema dark */
+  body.dark {
+    background-color: #000000; /* Cor de fundo dark */
+    color: #f5f5f5; /* Cor do texto dark */
+  }
+  
+  /* Cor do texto do cabeçalho no tema light */
+  header h1,
+  header h2 {
+    color: #09ff00; /* Cor do texto do cabeçalho no tema light */
+  }
+  
+  /* Cor do texto do rodapé no tema light */
+  footer p {
+    color: #02ce02; /* Cor do texto do rodapé no tema light */
+  }
+
+  /* Defina as propriedades de estilo para os temas light e dark */
+
+/* Estilo padrão (light) */
+body {
+    background-color: #ffffff; /* Cor de fundo light */
+    color: #000000; /* Cor do texto light */
+  }
+  
+  /* Estilo para o tema dark */
+  body.dark {
+    background-color: #000000; /* Cor de fundo dark */
+    color: #ffffff; /* Cor do texto dark */
+  }
+  
+  /* Cor do texto do cabeçalho no tema light */
+  header h1,
+  header h2 {
+    color: #1eff00; /* Cor do texto do cabeçalho no tema light */
+  }
+  
+  /* Cor do texto do rodapé no tema light */
+  footer p {
+    color: #02ce02; /* Cor do texto do rodapé no tema light */
+  }
+  
+  /* Cor dos links no menu de navegação */
+  nav a {
+    color: #02ce02; /* Cor dos links no tema light */
+  }
+  
+  /* Cor dos links no menu de navegação no tema dark */
+  body.dark nav a {
+    color: #02ce02; /* Cor dos links no tema dark */
+  }
+
+ /* Estilo para o botão de alternar tema */
+.theme-toggle-button {
+    background-color: #09ff00; /* Cor de fundo do botão */
+    color: #000000; /* Cor do texto do botão */
+    border: none; /* Remova a borda do botão */
+    padding: 10px 20px; /* Adicione espaço interno ao botão */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Altere o cursor para indicar que o botão é clicável */
+    border-radius: 5px; /* Adicione bordas arredondadas */
+    transition: background-color 0.3s ease; /* Adicione uma transição suave para mudanças de cor */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+  }
+  
+  /* Estilo para o botão de alternar tema quando hover */
+  .theme-toggle-button:hover {
+    background-color: #04a51f; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
